@@ -14,10 +14,4 @@ public class TestController {
     public String test(){
         return "test success";
     }
-
-
-    @GetMapping
-    public String test2(){
-        return "test success 2";
-    }
 }
